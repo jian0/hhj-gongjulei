@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+<script src="./kits.js"></script>
+<script>
+    // 生成随机数字
+    var result = kits.randomInt(0,10);
+    document.write(result);
+
+    // 用rbg的格式生成随机背景颜色
+    // var color = kits.randomRbg();
+    // document.body.style.backgroundColor = color;
+
+    // 用十六进制的方式生成随机背景颜色
+    var hexcolor = kits.randomHexColor();
+    document.body.style.backgroundColor = hexcolor;
+    document.write('<br>' + hexcolor);
+    
+    // 求数组中的最大值
+    var max = kits.getMax();
+    document.write('<br>'+max);
+</script>
+</html>
