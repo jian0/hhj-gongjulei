@@ -27,7 +27,7 @@ kits.randomHexColor = function(){
 }
 
 
-// 求出数组中的最大值
+// 求出数组中的最大值123
 kits.getMax = function(){
     var arr = [5,2,40,6,9,7];
     var result = arr[0];
