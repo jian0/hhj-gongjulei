@@ -39,9 +39,6 @@ $(function () {
   $('.item-list').append(html);
 
 
-
-
-
   // 当点选没有全部勾选时，全选不勾选
   let nockall = arr.find(e => {
     return !e.ischecked;
