@@ -51,7 +51,6 @@ class Tab {
         this.items = document.querySelectorAll(this.itemClass);
         this.contetns = document.querySelectorAll(this.contentClass);
 
-        // 必然new了之后要有效果，需要调用addEvent方法实现
         this.addEvent();
     }
 
